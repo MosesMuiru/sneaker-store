@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sneakers</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- the nav header -->
+    <nav>
+        <div class="nav-container">
+            <div class="icons">
+                <button class="icon open"><img src="./images/icon-menu.svg" alt=""></button>
+                <button class="icon close"><img src="./images/icon-close.svg" alt=""></button>
+            </div>
+            <div class="logo">sneaker</div>
+            <div class="nav-list">
+                
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="Collection">Collection</a></li>
+                        <li><a href="Man">Man</a></li>
+                        <li><a href="Woman">Woman</a></li>
+                        <li><a href="About">About</a></li>
+                        <li><a href="Contact">Contact</a></li>
+                    </ul>
+                </div>
+                </div>
+            <div class="nav-icon">
+                    <div class="cart-icon"><img src="./images/icon-cart.svg" alt=""></div>
+                    <p class="  selected select"></p>
+                <div class="ceo"><img src="./images/image-avatar.png" alt=""></div>
+                </div>
+            
+        </div>
+    </nav>
+
+    <!-- the enddind nav -->
+    <main>
+
+        <section class="main-container">
+            <div class="img-container">
+                <div class="image">
+                <img  id = "currentImage" src="./images/image-product-1.jpg" alt="">
+                </div>
+                
+                <!-- the button container -->
+                <div class="btn">
+                    <div class="btn-container">
+
+                    <button class="btnn  prev-btn"><img src="./images/icon-previous.svg" alt=""></button>
+                    <button class=" btnn next-btn"><img src="./images/icon-next.svg" alt=""></button>
+
+                </div>
+                </div>
+                <div class="next-image">
+                    <button class="ne next-select"><img src="./images/image-product-2.jpg" alt=""></button>
+                    <button class="ne next2"><img src="./images/image-product-1.jpg" alt=""></button>
+                    <button class="ne next3"><img src="./images/image-product-3.jpg" alt=""></button>
+                    <button class="ne next4"><img src="./images/image-product-4.jpg" alt=""></button>
+                </div>
+            </div>
+            <!-- this container contains the infomation about the store -->
+
+            <div class="info-container">
+                <div class="info">
+                    sneaker company
+                </div>
+
+                <div class="info-header">
+                    <h3>
+                        fall limited Edition sneaker
+                    </h3>
+                </div>
+
+                <div class="info-paragraph">
+                    these low-profile sneaker are your perfect casual wear companion.Featuring a durable rubber outer sole,they will withstand everything the weather can offer
+<!-- here the price of the shoe and the discount -->
+                </div>
+                <div class="shoe-price">
+                    <div class="current-price">$125.00 <small class="p">50%</small></div> 
+                    <span class="old-price">$250.00</span>
+                    </div>
+
+
+
+                    <!-- this is for removind and adding shoes is the cart -->
+                    <div class="shoe-selecting">
+                        <button class=" s-btn add-shoe"><img src="./images/icon-plus.svg" alt=""></button>
+                        <p class="count"></p>
+                        <button class="s-btn remove-shoe"><img src="./images/icon-minus.svg" alt=""></button>
+                    </div>
+
+                <button class="addCart">
+                    <img src="./images/icon-cart.svg" alt="">
+                    <span>Add to Cart</span>
+                </button>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!-- <p class="try">sds</p> -->
+
+    <script src="./app.js"></script>
+    <!-- <script src="/home/sparks/node_modules/animejs/lib/anime.min.js"></script> -->
+</body>
+</html>
